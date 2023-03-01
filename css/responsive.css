@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+	/* Navigation Styles for Mobile */
+	nav ul {
+		flex-direction: column;
+		height: auto;
+	}
+	
+	nav li {
+		margin: 10px 0;
+	}
+	
+	/* Section Styles for Mobile */
+	section {
+		padding: 30px 10px;
+	}
+	
+	h1 {
+		font-size: 36px;
+	}
+	
+	h2 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	
+	p {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	
+	ul {
+		margin-bottom: 15px;
+	}
+	
+	li {
+		font-size: 16px;
+		margin-bottom: 8px;
+	}
+	
+	/* Recipe List Styles for Mobile */
+	#recipes li {
+		margin: 0 5px 15px;
+		flex-basis: calc(50% - 10px);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	/* Header Styles for Mobile */
+	h1 {
+		font-size: 28px;
+	}
+}

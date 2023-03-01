@@ -1,0 +1,140 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	color: #333;
+	line-height: 1.5;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+/* Navigation Styles */
+nav {
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #ccc;
+	color: #333;
+}
+
+/* Section Styles */
+section {
+	padding: 50px 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-bottom: 20px;
+}
+
+li {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/* Recipe List Styles */
+#recipes ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#recipes li {
+	margin: 0 10px 20px;
+	flex-basis: calc(25% - 20px);
+	max-width: 300px;
+	text-align: center;
+}
+
+#recipes a {
+	display: block;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+#recipes a:hover {
+	background-color: #ccc;
+	color: #fff;
+	border-color: #333;
+}
+
+#recipes img {
+	margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
